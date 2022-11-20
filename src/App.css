@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.quick_login_wrapper {
+  padding: 200px 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1.quick_header {
+  font-size: 62px;
+  color: #227eff;
+}
+
+small {
+  cursor: pointer;
+}
+.quick_header p {
+  margin: 10px 0 30px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #888;
+}
+
+.quick_button_wrapper button {
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-color: #227eff;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.quick_button_wrapper button:hover {
+  cursor: pointer;
+}
+
+.home_page {
+  max-width: 900px;
+  margin: 100px auto 30px;
+  padding: 40px 50px 80px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+}
+
+.home_page.login {
+  max-width: 500px;
+}
+
+.home_header h1 {
+  color: #282c34;
+}
+
+.card_wrapper {
+  display: flex;
+  margin: 20px 0;
+}
+
+.card {
+  width: 500px;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.card:first-of-type {
+  background-color: #3070c9;
+  margin-right: 30px;
+}
+
+.card:last-of-type {
+  background-color: #ef7a2c;
+}
+
+.card p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.card h4 {
+  font-size: 18px;
+}
+
+.action_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  background-color: #94b5e4cc;
+  color: rgb(35, 51, 139);
+  padding: 10px;
+  width: 60px;
+  height: 50px;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.action_box {
+  cursor: pointer;
+}
+
+.action_box p {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.recent_wrapper {
+  margin-top: 50px;
+}
+
+.recent_wrapper h2 {
+  color: #888;
+}
+
+.tranx_wrapper {
+  margin-top: 10px;
+}
+
+.tranx_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.cash_wrapper {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(172, 204, 172);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash_wrapper.red {
+  background-color: rgb(231, 171, 181);
+}
+
+.tranx_box p {
+  color: darkgrey;
+}
+
+.amount_date p {
+  font-weight: bolder;
+  color: #000;
+}
+
+.amount_date h6 {
+  font-weight: bolder;
+  color: #888;
+  margin-top: 3px;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  color: #b2b2b2;
+  font-size: 16px;
+}
+
+.input {
+  margin: 5px 0;
+  outline: none;
+  border: none;
+  border: 1px solid #ccc;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+.form_wrapper button {
+  height: 40px;
+  background-color: #227eff;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  padding: 0 10px;
+  width: max-content;
+  margin-top: 10px;
+}
+
+.form_wrapper button:hover {
+  cursor: pointer;
+}
+
+.plink {
+  margin-top: 20px;
+}
+
+.plink a {
+  text-decoration: underline;
+  color: #227eff;
+}
+
+.btn_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.center_percent {
+  display: flex;
+  text-align: right;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.center_percent input {
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 72px;
+  width: 90px;
+  color: #888;
+}
+
+.center_percent input:focus {
+  border: none;
+  outline: none;
+}
+
+button.btn {
+  width: 150px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+}
+
+.form button {
+  width: 100%;
+}
+
+.account_exists {
+  margin-top: 15px;
+}
+
+.account_exists a {
+  color: #227eff;
+}
