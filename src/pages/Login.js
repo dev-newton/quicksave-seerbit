@@ -9,6 +9,16 @@ const Login = () => {
           <h2>Login</h2>
           <div className="form_wrapper">
             <div className="form-group">
+              <p style={{ color: "orange" }}>
+                Kindly use below credentials to login:
+              </p>
+              <p style={{ color: "orange" }}>
+                Username: <b>test</b>
+              </p>
+              <p style={{ color: "orange" }}>
+                Password: <b>test</b>
+              </p>
+              <br />
               <label htmlFor="">Email:</label>
               <input className="input" type="email" required />
             </div>
